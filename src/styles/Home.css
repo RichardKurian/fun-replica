@@ -1,0 +1,48 @@
+.Home{
+
+    background-image: linear-gradient(to top, #033737 0%, #330867 100%);
+
+    color: antiquewhite;
+    font-size: 30px;
+    /* padding-block-end: 521px; */
+    /* width: 100%; */
+    position: absolute;
+    top: 100px; right: 0; bottom: 0; left: 0;
+    cursor: pointer;
+
+}
+
+.MainHeading{
+    color: red;
+    font-size: 110px;
+    padding-top: 30px;
+    font-weight: bolder;
+}
+
+
+.SubHeading{
+    font-size: revert;
+}
+
+.exp-btn{
+   background-color:white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 49px;
+    margin-top: 30px;
+
+    font-size: 40px;
+    font-weight: bold;
+    color:rgb(20,39,72);
+    border: none;
+    
+
+}
+
+.exp-btn:hover{
+    background-image: linear-gradient(to right, #f00000, #dc281e);
+    
+}
+

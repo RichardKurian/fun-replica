@@ -1,0 +1,103 @@
+
+
+
+
+
+
+.products{
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+      
+    color: antiquewhite;
+    font-size: 30px;
+    /* padding-block-end: 521px; */
+    /* width: 100%; */
+    position: absolute;
+    top: 100px; right: 0; bottom: 0; left: 0;
+
+   cursor: pointer;
+}
+
+
+.user{
+
+  justify-content: space-around;
+  background-color: greenyellow;
+  max-width: 600px;
+  max-height: 197px;
+  margin-left: 224px;
+  padding-top: 100px;
+
+  }
+
+
+
+  .flexContainer{
+    display: flex;
+    margin-top: 110px;
+   justify-content: space-around;
+  }
+
+.test{
+  padding-right: 80px;
+  background-color: rgb(27,24,40);
+  /* width: 206px;
+  height: 213px; */
+
+  width: 361px;
+    height: 334px;
+
+  padding-left: 52px;
+  padding-top: 75px;
+  padding-bottom: 58px;
+  border-radius: 45px;
+
+}
+
+.test:hover{
+ 
+
+  background-image: linear-gradient(to right, rgb(223,127,79) 0%, rgb(249,173,16)  100%);
+}
+
+.paginationBttns {
+    width: 80%;
+    height: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+   
+    /* margin-top: 80px; */
+    position : fixed;
+    bottom : 0;
+    
+  }
+  
+  
+  .paginationBttns a {
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px solid #2b2eff;
+    color: #2b2eff;
+    cursor: pointer;
+  }
+  
+  
+  .paginationBttns a:hover {
+    color: white;
+    background-color: #2b2eff;
+  }
+  
+  .paginationActive a {
+    color: white;
+    background-color: #2b2eff;
+  }
+  
+  
+  .paginationDisabled a {
+    color: grey;
+    background-color: grey;
+  }
+
+
+

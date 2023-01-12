@@ -1,0 +1,22 @@
+
+.Login{
+    
+    background-image: linear-gradient(to top, #033737 0%, #330867 100%);
+
+    color: antiquewhite;
+    font-size: 30px;
+    /* padding-block-end: 521px; */
+    /* width: 100%; */
+    position: absolute;
+    top: 100px; right: 0; bottom: 0; left: 0;
+    cursor: pointer;
+}
+
+
+.mainConatiner{
+    /* background-color: aqua; */
+    width: 671px;
+    height: 350px;
+    margin-left: 385px;
+    margin-top: 136px;
+} 
